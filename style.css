@@ -1,0 +1,124 @@
+/* шрифт Roboto, красивый оочень, мне нравится */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.card {
+    background: #fff;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.avatar img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.name {
+    font-size: 1.8rem;
+    font-weight: 700; /* жирный */
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 1rem;
+    font-weight: 300; /* тонкий */
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.about {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.about p {
+    margin-bottom: 10px;
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.stars {
+    color: #f5a623; /* цвет звёзд */
+    font-size: 1rem;
+}
+
+.contacts {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.contacts h2 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.contacts ul {
+    list-style: none;
+}
+
+.contacts li {
+    margin-bottom: 6px;
+    font-weight: 300;
+}
+
+.contacts a {
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.contacts a:hover {
+    text-decoration: underline;
+}
+
+.btn-download {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #1e90ff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+.btn-download:hover {
+    background: #166bb5;
+}
