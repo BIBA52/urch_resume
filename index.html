@@ -14,6 +14,9 @@
     <h1 class="name">Варька</h1>
     <p class="title">Frontend-разработчик</p>
 
+    <!-- Новая кнопка -->
+    <button class="btn-toggle-about">Показать/Скрыть "О себе"</button>
+
     <section class="about">
         <h2>О себе</h2>
         <p>Я опытный разработчик, увлечён созданием интерфейсов, удобных для пользователей и лёгких в поддержке. Умею верстать, люблю курить 🧠</p>
@@ -44,5 +47,17 @@
         </ul>
     </section>
 </div>
+
+<!-- JavaScript -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const toggleButton = document.querySelector('.btn-toggle-about');
+        const aboutSection = document.querySelector('.about');
+
+        toggleButton.addEventListener('click', () => {
+            aboutSection.classList.toggle('hidden');
+        });
+    });
+</script>
 </body>
 </html>
