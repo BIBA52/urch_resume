@@ -46,7 +46,23 @@ body {
     font-size: 1rem;
     font-weight: 300; /* тонкий */
     color: #777;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.btn-toggle-about {
+    margin: 10px 0 20px;
+    padding: 8px 16px;
+    background-color: #f5a623;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.3s;
+}
+
+.btn-toggle-about:hover {
+    background-color: #d48806;
 }
 
 .about {
@@ -74,7 +90,7 @@ body {
 }
 
 .stars {
-    color: #f5a623; /* цвет звёзд */
+    color: #f5a623;
     font-size: 1rem;
 }
 
@@ -108,17 +124,7 @@ body {
     text-decoration: underline;
 }
 
-.btn-download {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #1e90ff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: 500;
-    transition: background 0.3s ease;
-}
-
-.btn-download:hover {
-    background: #166bb5;
+/* класс для скрытия */
+.hidden {
+    display: none;
 }
